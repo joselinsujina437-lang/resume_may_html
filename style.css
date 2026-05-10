@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+    color: #333;
+}
+
+/* Main Container */
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Header */
+
+.header {
+    background: #111827;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.header h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 18px;
+}
+
+.contact {
+    margin-top: 15px;
+    font-size: 15px;
+    line-height: 28px;
+}
+
+/* Sections */
+
+.section {
+    padding: 25px;
+    border-bottom: 1px solid #ddd;
+}
+
+.section h2 {
+    color: #2563eb;
+    margin-bottom: 15px;
+    font-size: 28px;
+}
+
+.section p,
+.section li {
+    font-size: 17px;
+    line-height: 28px;
+}
+
+/* List */
+
+ul {
+    padding-left: 20px;
+}
+
+/* Skills */
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill-box {
+    background: #2563eb;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+/* Projects */
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    margin-bottom: 10px;
+    color: #111827;
+}
+
+/* Footer */
+
+.footer {
+    background: #111827;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 15px;
+}
+
+/* Responsive Design */
+
+@media(max-width:768px) {
+
+    .header h1 {
+        font-size: 30px;
+    }
+
+    .section h2 {
+        font-size: 24px;
+    }
+
+    .section p,
+    .section li {
+        font-size: 15px;
+    }
+
+    .skill-box {
+        font-size: 14px;
+    }
+}
